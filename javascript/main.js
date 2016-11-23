@@ -8,7 +8,7 @@ var main = function() {
             var html = $('<li>').text(message);
             html.appendTo('#message');
             $input.val("");
-            html[0].scrollIntoView();
+            $('#message')[0].scrollIntoView(false);
         }
 
         return false;
