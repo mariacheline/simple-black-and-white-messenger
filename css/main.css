@@ -132,7 +132,11 @@ header h3{font-weight: 400;}
 .reply{
   padding: 15px 0;
   background-color: #f5f8f9;
-  display:flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
   justify-content: space-between;
 }
 
@@ -145,6 +149,8 @@ header h3{font-weight: 400;}
 .material-icons, input, button{
   float: left;
   margin: 3px;
+  -webkit-box-flex: 1;
+  -ms-flex: 1 1 0;
   flex: 1 1 0;
 }
 
