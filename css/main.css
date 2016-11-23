@@ -70,6 +70,7 @@ header h3{font-weight: 400;}
   font-size: .85em;
   position: relative;
   margin: 20% 0 3% 0;
+  animation: scaler 150ms ease-out;
 }
 
 .matt-line p:after {
