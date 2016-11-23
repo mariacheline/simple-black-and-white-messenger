@@ -185,7 +185,6 @@ button{
   bottom: 0;
 }
 
-
 @keyframes scaler{
   0%{transform: scale(0)}
   100%{transform: scale(1)}
